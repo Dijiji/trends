@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Merriweather:ital@1&family=Open+Sans+Condensed:wght@300;700&family=Poppins:wght@200&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+body {
+font-family: 'Exo 2', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+    background-color: #9F8170;
+background: #FFE4C4;
+	
+	font-size:14pt;
+	
+   }  
+   /*шрифт*/
+  
+   /*цвет фона*/
+
+/*кнопка вверх*/
+.scrollup{
+width:40px;
+height:40px;
+opacity:0.3;
+position:fixed;
+bottom:50px;
+right:100px;
+display:none;
+text-indent:-9999px;
+ background: url('icon_top.png') no-repeat;
+
+
+
+}
+
+/*кнопки*/
+.floating-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 160px;
+  height: 90px;
+  line-height: 80px;
+  border-radius: 40px;
+  margin: 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 380;`
+  color: #FAE7B5;
+  background: #F5F5DC;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #FFDEAD;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: #F5F5DC;
+  transform: translateY(-7px);
+}
+  .container{
+	  width: 100%;
+	  max-width: 1024px;
+	  padding:  15px;
+	  margin: 0 auto;
+	
+  } 
+  .logo
+  {float: left; background-color: #FFC8A8;
+	}
+  nav
+  {float: right;}
+  nav ul{
+	  margin: 0;
+	  padding: 0;
+	  list-style: none;
+  }
+  
+  }
+ 
+  footer
+  { background-color:#B03F35;}
+  nav a{
+	  text-decoration: none;
+	  line-height: 80px;
+  }
+  /*отступ*/
+  .left{float: left;
+  width: 30%;
+  background-color:red;}
+  .right{float: right;
+  width: 70%;
+  background-color: green;}
+ h1{
+	 font:big-caption;
+	 text-decoration: underline;
+ }
+.hei {
+    height: 100vh; /* 100vh - 100% от высоты viewport(окна браузера) */
+}
